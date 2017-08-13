@@ -588,7 +588,7 @@
 		}
 
 	label {
-		color: rgba(255, 255, 255, 0.875);
+		color: rgba(100, 1, 1, 0.875);
 		display: block;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -607,7 +607,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		background: transparent;
-		border: solid 2px rgba(255, 255, 255, 0.25);
+		border: solid 2px rgba(100, 1, 1, 0.875);
 		border-radius: 0.25rem;
 		color: inherit;
 		display: block;
@@ -632,7 +632,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffe4b4;
+			border-color: rgba(255, 48, 48, 0.875);
 		}
 
 	option {
@@ -1656,7 +1656,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ffe4b4;
+				background-color: rgba(255, 48, 48, 0.875);
 			}
 
 			input[type="submit"].special:active,

@@ -2216,6 +2216,12 @@
 				background-color: #353865;
 			}
 
+            .panel > *.color5 {
+				background-image: url("../../images/overlay.png"), linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+				background-size: 128px 128px, auto;
+				background-color: #304352;
+			}
+
 			.panel > *.color1-alt {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
